@@ -19,7 +19,6 @@ namespace TheTankGame.Tests
         {
             IAssembler assembler = new VehicleAssembler();
             IVehicle vanguard = new Vanguard("Vanguard1", 500, 1000, 500, 500, 1000, assembler);
-            IVehicle revenger = new Revenger("Revenger1", 1000, 500, 1000, 1000, 500, assembler);
             IPart arsenalPart = new ArsenalPart("Arsenal1", 100, 100, 100);
             IPart shellPart = new ShellPart("Shell1", 100, 100, 100);
             IPart endurancePart = new EndurancePart("Endurance1", 100, 100, 100);
